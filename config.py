@@ -44,8 +44,6 @@ try:
 	personList = pickle.load( open("ai_data/personlist.p","rb"))
 except:
 	personList = []
-	personList.append(Person("zack","pee h dee student","hi zack. ",datetime.datetime(2014,1,28,12,0,0),"male"))
-	personList.append(Person("ashley","law student","it is lovely to see you ashley. ",datetime.datetime(2014,1,27,0,0,0),"female"))
 	pickle.dump(personList,open("ai_data/personlist.p","wb"))
 
 # Need to set your own API codes 
