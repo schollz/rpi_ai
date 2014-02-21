@@ -1,0 +1,17 @@
+Debian dependencies (install using apt-get):
+
+    python-pygame
+    mpg123
+    pip
+
+Python dependences (install using python pip):
+
+    nltk 
+        Also: download cmudict by using:
+            python
+            import python
+            nltk.download()
+            d cmudict
+            exit()
+
+
