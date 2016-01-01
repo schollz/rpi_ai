@@ -44,6 +44,7 @@ try:
 	personList = pickle.load( open("ai_data/personlist.p","rb"))
 except:
 	personList = []
+        personList.append(Person(name="Bob",job="Dish Washer"))
 	pickle.dump(personList,open("ai_data/personlist.p","wb"))
 
 # Need to set your own API codes 
